@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marks Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Student Marks Management System</h1>
+    <p>Digital Literacy and Application - Unit 6</p>
+</header>
+
+<div class="container">
+    <h2>Student Academic Records</h2>
+
+    <input type="text" id="searchInput"
+    placeholder="Search by Roll Number or Student Name">
+
+    <p id="status">Loading records...</p>
+
+    <div class="table-box">
+        <table>
+            <thead>
+                <tr>
+                    <th onclick="sortData('Sr No')">Sr No ↕</th>
+                    <th onclick="sortData('Roll No')">Roll No ↕</th>
+                    <th onclick="sortData('Student Name')">Student Name ↕</th>
+                    <th onclick="sortData('10th')">10th ↕</th>
+                    <th onclick="sortData('12th')">12th ↕</th>
+                    <th onclick="sortData('Sem 1')">Sem 1 ↕</th>
+                    <th onclick="sortData('Sem 2')">Sem 2 ↕</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+        </table>
+    </div>
+</div>
+
+<footer>
+    <p>Student Marks Management System</p>
+    <p>Created for Unit 6 Activity No. 6</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

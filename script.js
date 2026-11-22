@@ -1,5 +1,5 @@
 
-const API_URL = "PASTE_YOUR_WEB_APP_URL_HERE";
+const API_URL = "https://script.google.com/macros/s/AKfycbwliZpLTMNCGJH9VujqrYvAO3bOszA4KWBZcI4CzzTFDe-Qqb2frJyDknXLW9WNRBViBg/exec";
 
 let students = [];
 let ascending = true;
